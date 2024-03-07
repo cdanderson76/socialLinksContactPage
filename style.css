@@ -1,0 +1,54 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Use 'margin: auto' for non flexbox/grid projects */
+
+/* Fits images in containers no matter the size */
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+.canvas {
+  width: 100%;
+  height: 100vh;
+  padding: 48px 0;
+  background-image: url('images/favgradientM.jpg');
+  background-size: cover;
+}
+
+.profile-card {
+  width: 400px;
+  height: 700px;
+  border: 2px black solid;
+  margin: auto;
+}
+
+.top-part {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  border-bottom: 2px black solid;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.utility-border {
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
+
+.bottom-part {
+  width: 389px;
+  height: 372px;
+  border: 2px black solid;
+}
