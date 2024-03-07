@@ -21,7 +21,7 @@ img {
 }
 
 .profile-card {
-  width: 350px;
+  width: 300px;
   height: 700px;
   border: 2px black solid;
   margin: auto;
@@ -29,7 +29,7 @@ img {
 
 .top-part {
   display: flex;
-  width: 350px;
+  width: 300px;
   height: 300px;
   border-bottom: 2px black solid;
   margin-bottom: 15px;
@@ -44,11 +44,12 @@ img {
 
 .utility-border {
   border-bottom: 2px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
+  margin-left: 80px;
 }
 
 .bottom-part {
-  width: 350px;
+  width: 300px;
   height: 372px;
   border: 2px black solid;
 }
