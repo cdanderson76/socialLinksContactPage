@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto';
 }
 /*Use 'margin: auto' for non flexbox/grid projects */
 
@@ -33,9 +34,8 @@ img {
   display: flex;
   position: relative;
   width: 299px;
-  height: 300px;
-  border-bottom: 2px black solid;
-  margin-bottom: 15px;
+  height: 350px;
+  margin-bottom: -140px;
 }
 
 .profile-pic {
@@ -50,19 +50,29 @@ img {
   padding: 3px;
   left: 73px;
   top: 40px;
-  
 }
 
-.utility-border-top {
+.text-box {
+  margin-left: 53px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.profile-background-color {
   border-right: 2px solid black;
   border-bottom: 2px solid black;
   width: 298px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   background-color: #22222294;
 }
 
-.bottom-part {
+/* .bottom-part {
   width: 300px;
   height: 372px;
   border: 2px black solid;
-}
+} */
