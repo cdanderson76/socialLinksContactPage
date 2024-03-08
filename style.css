@@ -78,6 +78,7 @@ p {
 
 .profile-background-color {
   border-bottom: 2px solid black;
+  border-right: 2px solid black;
   width: 298px;
   margin-bottom: 200px;
   background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
@@ -86,7 +87,9 @@ p {
 .bottom-part {
   width: 298px;
   height: 360px;
-  border-bottom: 0.3px black solid;
+  border: 0.3px black solid;
+  border-top: none;
+  border-left: none;
   margin-right: 8px;
   margin-top: 22px;
   background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
