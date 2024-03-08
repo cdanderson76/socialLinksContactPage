@@ -27,6 +27,7 @@ img {
   width: 300px;
   height: 700px;
   border: 2px black solid;
+  background-color: rgb(199, 152, 90);
   margin: auto;
 }
 
@@ -60,7 +61,14 @@ h2 {
   font-weight: 500;
   font-size: 14px;
   margin-left: 50px;
-  margin-top: 5px;
+  margin-top: 8px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Jost';
+  font-size: 14px;
+  margin: 12px 48px 0 0;
 }
 
 .profile-background-color {
