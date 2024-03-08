@@ -27,7 +27,7 @@ img {
   width: 300px;
   height: 700px;
   border: 2px black solid;
-  background-color: rgb(199, 152, 90);
+  background-color: #232b2b;
   margin: auto;
 }
 
@@ -54,7 +54,12 @@ img {
 }
 
 .text-box {
-  margin-left: 53px;
+  margin-left: 51px;
+}
+
+.name {
+  color: white;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -72,15 +77,17 @@ p {
 }
 
 .profile-background-color {
-  border-right: 2px solid black;
   border-bottom: 2px solid black;
   width: 298px;
   margin-bottom: 200px;
-  background-color: #22222294;
+  background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
 }
 
-/* .bottom-part {
-  width: 300px;
-  height: 372px;
-  border: 2px black solid;
-} */
+.bottom-part {
+  width: 298px;
+  height: 360px;
+  border-bottom: 0.3px black solid;
+  margin-right: 8px;
+  margin-top: 22px;
+  background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
+}
