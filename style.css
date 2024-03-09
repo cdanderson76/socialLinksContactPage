@@ -24,8 +24,9 @@ img {
 }
 
 .profile-card {
-  width: 300px;
-  height: 700px;
+  min-width: 60%;
+  width: 18.75em;
+  height: 43.75em;
   border: 2px black solid;
   background-image: linear-gradient(to top, #232b2b, #41514a, #6d7964, #a79f80, #ebc3a7);
   margin: auto;
@@ -35,9 +36,10 @@ img {
 .top-part {
   display: flex;
   position: relative;
-  width: 299px;
-  height: 350px;
-  margin-bottom: -140px;
+  min-width: 60%;
+  width: 18.6875em;
+  height: 21.875em;
+  margin-bottom: -8.75em;
 }
 
 .profile-pic {
@@ -49,13 +51,20 @@ img {
   border-radius: 50%;
   border: 3px solid black;
   background-color: #A89C93;
-  padding: 3px;
-  left: 73px;
-  top: 40px;
+  padding: 0.1875em;
+  left: 4.5625em;
+  top: 2.5em;
 }
 
 .text-box {
-  margin-left: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 160px;
+  /* border: 2px solid black; */
+  margin-left: 36px;
+  width: 14em;
 }
 
 .name {
@@ -66,8 +75,8 @@ img {
 h2 {
   font-weight: 500;
   font-size: 14px;
-  margin-left: 54px;
-  margin-top: 15px;
+  /* margin-left: 54px;
+  margin-top: 15px; */
   color: #deeeaf;
 }
 
@@ -75,14 +84,15 @@ p {
   text-align: center;
   font-family: 'Jost';
   font-size: 14px;
-  margin: 20px 48px 100px 0;
+  /* margin: 20px 48px 100px 0; */
 }
 
 .profile-background-color {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
-  width: 298px;
-  margin-bottom: 200px;
+  min-width: 60%;
+  width: 18.625em;
+  margin-bottom: 12.5em;
   background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
 }
 
@@ -93,7 +103,7 @@ p {
   align-items: center;
   width: 270px;
   height: 280px;
-  margin-top: -90px;
+  margin-top: 25px;
   margin-left: 13px;
 }
 
@@ -109,4 +119,24 @@ p {
   font-weight: 600;
   color: #deeeaf;
   background-color: #464442;
-};
+  text-decoration: none;
+}
+
+.profile-pic:hover {
+  background-color: white;
+  border-color: #A89C93;
+  transition-duration: 0.5s;
+}
+
+.btn:active,
+.btn:hover {
+color: #353434;
+border-radius: 20px;
+border-color: 2px solid #353434;
+background-color: #deeeaf;
+transition: all 0.4s ease 0s;
+}
+
+.top-part:hover {
+  color: black;
+}
