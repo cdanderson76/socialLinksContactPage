@@ -24,9 +24,12 @@ img {
 }
 
 .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-width: 60%;
-  width: 18.75em;
-  height: 43.75em;
+  width: 18.70em;
+  height: 42em;
   border: 2px black solid;
   background-image: linear-gradient(to top, #232b2b, #41514a, #6d7964, #a79f80, #ebc3a7);
   margin: auto;
@@ -45,7 +48,6 @@ img {
 .profile-pic {
   position: absolute;
   display: inline-block;
-  margin: auto;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -59,23 +61,24 @@ img {
 .text-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   height: 160px;
   /* border: 2px solid black; */
-  margin-left: 33px;
   width: 14em;
   min-width: 77%;
+  margin-bottom: -15px;
 }
 
 .name {
   color: #f0e7e5;
   letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 h2 {
   font-weight: 500;
   font-size: 14px;
+  margin-bottom: 15px;
   /* margin-left: 54px;
   margin-top: 15px; */
   color: #deeeaf;
@@ -85,13 +88,14 @@ p {
   text-align: center;
   font-family: 'Jost';
   font-size: 14px;
-  /* margin: 20px 48px 100px 0; */
 }
 
 .profile-background-color {
+  align-items: center;
   border-bottom: 2px solid black;
+  border-left: 2px solid black;
   border-right: 2px solid black;
-  min-width: 60%;
+  min-width: 100%;
   width: 18.625em;
   margin-bottom: 12.5em;
   background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
@@ -105,8 +109,6 @@ p {
   min-width: 83%;
   width: 270px;
   height: 280px;
-  margin-top: 25px;
-  margin-left: 13px;
 }
 
 .btn {
