@@ -18,7 +18,7 @@ img {
 .canvas {
   width: 100%;
   height: 100vh;
-  margin-top: 50px;
+  margin-top: 3.125em;
   background-image: linear-gradient(to top, #b37f7d, #bf8b7e, #c89981, #cea884, 
   #d2b78a, #cfb788, #ccb886, #c8b884, #c0a877, #b7996b, #ae895f, #a47a55);
 }
@@ -33,7 +33,7 @@ img {
   border: 2px black solid;
   background-image: linear-gradient(to top, #232b2b, #41514a, #6d7964, #a79f80, #ebc3a7);
   margin: auto;
-  border-radius: 3px 3px 8px 8px;
+  border-radius: 0.1875em 0.1875em 0.5em 0.5em;
 }
 
 .top-part {
@@ -62,39 +62,40 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 160px;
-  /* border: 2px solid black; */
+  height: 10em;
   width: 14em;
   min-width: 77%;
-  margin-bottom: -15px;
+  margin-bottom: -0.9375em;
 }
 
 .name {
   color: #f0e7e5;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
+  letter-spacing: 0.0625em;
+  margin-bottom: 0.9375em;
 }
 
 h2 {
   font-weight: 500;
-  font-size: 14px;
-  margin-bottom: 15px;
-  /* margin-left: 54px;
-  margin-top: 15px; */
+  font-size: 0.875rem;
+  margin-bottom: 0.9375em;
   color: #deeeaf;
 }
 
 p {
   text-align: center;
   font-family: 'Jost';
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .profile-background-color {
   align-items: center;
+
+  /* Refactor */
   border-bottom: 2px solid black;
   border-left: 2px solid black;
   border-right: 2px solid black;
+  /* Refactor */
+
   min-width: 100%;
   width: 18.625em;
   margin-bottom: 12.5em;
@@ -107,17 +108,17 @@ p {
   justify-content: space-around;
   align-items: center;
   min-width: 83%;
-  width: 270px;
-  height: 280px;
+  width: 16.875em;
+  height: 17.5em;
 }
 
 .btn {
   display: flex;
   min-width: 83%;
-  width: 220px;
-  height: 50px;
-  border: 2px solid black;
-  border-radius: 8px;
+  width: 13.75em;
+  height: 3.125em;
+  border: 0.125em solid black;
+  border-radius: 0.5em;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto';
@@ -135,9 +136,37 @@ p {
 
 .btn:active,
 .btn:hover {
-color: #353434;
-border-radius: 20px;
-border-color: 2px solid #353434;
-background-color: #deeeaf;
-transition: all 0.4s ease 0s;
+  color: #353434;
+  border-radius: 1.25em;
+  border-color: 0.125em solid #353434;
+  background-color: #deeeaf;
+  transition: all 1s ease 0s;
+}
+
+@media(min-width: 830px) {
+  .profile-card  {
+    display: flex;
+    width: 35em;
+    height: 25em;
+    margin-top: 14em;
+    flex-direction: row;
+  };
+
+  .text-box {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .profile-background-color {
+    position: static;
+    width: 50px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: -73px;
+  }
+
+  .top-part {
+    position: static;
+    width: 50px;
+  }
 }
