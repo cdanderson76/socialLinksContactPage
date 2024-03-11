@@ -27,7 +27,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 60%;
+  min-width: 46.5%;
   width: 18.70em;
   height: 42em;
   border: 2px black solid;
@@ -62,10 +62,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 10em;
-  width: 14em;
+  height: 450px;
+  width: 224px;
   min-width: 77%;
   margin-bottom: -0.9375em;
+  /* border: 2px solid black; */
 }
 
 .name {
@@ -85,6 +86,7 @@ p {
   text-align: center;
   font-family: 'Jost';
   font-size: 0.875rem;
+  margin-bottom: 50px;
 }
 
 .profile-background-color {
@@ -102,21 +104,11 @@ p {
   background-image: linear-gradient(to bottom, #232b2b, #394a42, #5d6953, #8f8665, #caa082);
 }
 
-.btn-holder {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  min-width: 83%;
-  width: 16.875em;
-  height: 17.5em;
-}
-
 .btn {
   display: flex;
-  min-width: 83%;
-  width: 13.75em;
-  height: 3.125em;
+  min-width: 100%;
+  width: 66px;
+  height: 45px;
   border: 0.125em solid black;
   border-radius: 0.5em;
   justify-content: center;
@@ -126,6 +118,7 @@ p {
   color: #deeeaf;
   background-color: #464442;
   text-decoration: none;
+  margin-top: 15px;
 }
 
 .profile-pic:hover {
@@ -143,30 +136,80 @@ p {
   transition: all 1s ease 0s;
 }
 
-@media(min-width: 830px) {
+@media(min-width: 840px) {
+  .canvas {
+    margin-top: -40px
+  }
   .profile-card  {
+    max-width: 70%;
     display: flex;
-    width: 35em;
-    height: 25em;
+    min-width: 51em;
+    height: 32em;
     margin-top: 14em;
     flex-direction: row;
+    padding-right: 230px;
+    padding-top: 30px;
+    padding-bottom: -20px;
+    padding-left: 20px;
+    border-radius: 8px;
   };
 
   .text-box {
-    flex-direction: row;
-    margin-top: 0;
+    width: 18px;
+    height: 10px;
+    border: 2px solid black;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-shadow: 4px 2px 4px rgba(0,0,0,0.85);
+  }
+
+  h2 {
+    font-size: 20px;
+    text-shadow: 4px 2px 4px rgba(0,0,0,0.85);
+    margin-bottom: 23px;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 28px;
   }
 
   .profile-background-color {
     position: static;
-    width: 50px;
+    border-radius: 10px;
+    max-width: 50px;
     height: 350px;
-    margin-left: 20px;
-    margin-top: -73px;
+    margin-left: 28px;
+    margin-top: -72.7px;
   }
 
   .top-part {
-    position: static;
+    min-width: 42%;
     width: 50px;
+    position: static;
+    margin-right: 120px;
   }
+
+  .profile-pic {
+    position: static;
+    border-radius: 10px;
+    min-width: 333px;
+    height: 405px;
+    margin-left: -20px;
+    margin-top: -40px;
+  }
+
+  .btn {
+    min-width: 87%;
+  }
+  
+  .profile-pic:hover {
+    background-color: white;
+    border-color: #A89C93;
+    transition-duration: 0.5s;
+  }
+
 }
