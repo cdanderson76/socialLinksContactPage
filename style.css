@@ -81,7 +81,7 @@ img {
 h2 {
   font-weight: 500;
   font-size: 1rem;
-  margin-bottom: 0.9375em;
+  margin-bottom: 2em;
   color: #deeeaf;
 }
 
@@ -89,7 +89,7 @@ p {
   text-align: center;
   font-family: 'Jost';
   font-size: 0.875rem;
-  margin-bottom: 50px;
+  margin-bottom: 2.3125em;
 }
 
 .profile-background-color {
